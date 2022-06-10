@@ -56,6 +56,6 @@ for c in contours:
     cv2.rectangle(img, (x, y), (x + w, y + h), (0,255,0), 3)
     M = cv2.moments(c)
 
-cv2.imshow("Tomate Catapora", img)
+cv2.imshow("Tomates", img)
 
 cv2.waitKey(0) 
